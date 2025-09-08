@@ -3,13 +3,21 @@ package edu.diome.tipovariaveis;
 public class tipovariaveis {
 
     public static void main(String[] args) {
-        //EXEMPLOS DE TIPO NUMÉRICO
-        /*byte idade = 123;
+        /**
+         * TIPOS DE VARIÁVEIS NUMÉRICOS
+         * OBS.:
+         * - SE 'INT' COMEÇAR COM '0', DEVE SER TIPO 'STRING';
+         * - SE 'LONG' COMEÇAR COM '0', DEVE SER TIPO 'STRING';
+         * - 'LONG' PRECISA SEMPRE FINALIZAR COM 'L' PARA INFORMAR QUE NÃO É 'INT;
+         * - 'FLOAT' PRECISA SEMPRE FINALIZAR COM 'F' PARA CONFIRMAR QUE É 'FLOAT';
+         *
+         */
+        byte idade = 123;
         short ano = 2025;
-        int cep = 77006454;//SE COMEÇAR COM 0, DEVE SER STRING
-        long cpf = 74173185289L;//MESMA SITUAÇÃO DO CEP, SEMPRE PRECISA TERMINAR COM 'L' PARA CONFIRMAR QUE É LONG E NÃO INT
-        float pi = 3.14F;//SEMPRE PRECISA TERMINAR COM F PARA CONFIRMAR QUE É FLOAT
-        double salario = 1571.23;*/
+        int cep = 77006454;
+        long cpf = 74173185289L;
+        float pi = 3.14F;
+        double salario = 1571.23;
 
         /**
          * ESSA SEQUÊNCIA É UMA DEMOSTRAÇÃO DA TRANSFORMAÇÃO CASTING
@@ -19,6 +27,13 @@ public class tipovariaveis {
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
         short numeroCurto2 = (short) numeroNormal;
+
+        /**
+         * SEMPRE QUE QUISER USAR UMA CONSTANTE PARA QUE NÃO SEJA MODIFICADO O VALOR
+         * PRECISA UTILIZAR O 'FINAL' ANTES DO TIPO, E EM CAIXA ALTA PARA INFORMAR
+         * QUE É UMA CONSTANTE E NUNCA SERÁ MUDADO O VALOR, ISSO SERVE PARA QUALQUER TIPO
+         */
+        final float VALOR_DE_PI = 3.14F;
 
     }
 
