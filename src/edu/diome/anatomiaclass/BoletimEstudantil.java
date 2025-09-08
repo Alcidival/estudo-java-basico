@@ -1,3 +1,5 @@
+package edu.diome.anatomiaclass;
+
 public class BoletimEstudantil {
 
     public static void main(String[] args) {

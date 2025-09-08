@@ -1,3 +1,5 @@
+package edu.diome.anatomiaclass;
+
 public class MinhaClasse {
 
     public static void main(String[] args) {
