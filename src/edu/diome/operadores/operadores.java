@@ -22,7 +22,6 @@ public class operadores {
          *   FAZ A CONCATENAÇÃO DOS TEXTOS.
          *   - 'INT' SEGUIDO DE 'STRING' A CONCATENAÇÃO É DE STRING
          */
-
         String meuNome = "Alcidival " + "Júnior";
         String concatenacao = "?";
         concatenacao = 1+1+1+"1";
@@ -31,6 +30,22 @@ public class operadores {
         concatenacao = "1"+1+1+1;
         concatenacao = "1" + (1+1+1);
         System.out.println(meuNome);
+
+        /**
+         * OPERADORES LÓGICOS
+         * - '&&' = E
+         * - '||' = OU
+         */
+        boolean numeroUm = true;
+        boolean numeroDois = false;
+
+        if ( numeroUm && numeroDois ) {
+            System.out.println("Os dois numeros são verdadeiros");
+        }
+
+        if ( nmumeroUm || numeroDois ) {
+            System.out.println("Um dos numeros é verdadeiro");
+        }
     }
 
 }
