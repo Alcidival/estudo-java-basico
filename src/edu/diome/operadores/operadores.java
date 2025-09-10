@@ -43,7 +43,7 @@ public class operadores {
             System.out.println("Os dois numeros são verdadeiros");
         }
 
-        if ( nmumeroUm || numeroDois ) {
+        if ( numeroUm || numeroDois ) {
             System.out.println("Um dos numeros é verdadeiro");
         }
     }
