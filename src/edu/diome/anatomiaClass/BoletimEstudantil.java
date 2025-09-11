@@ -1,4 +1,4 @@
-package edu.diome.anatomiaclass;
+package edu.diome.anatomiaClass;
 
 public class BoletimEstudantil {
 

@@ -1,6 +1,6 @@
-package edu.diome.tipovariaveis;
+package edu.diome.tipoVariaveis;
 
-public class tipovariaveis {
+public class TipoVariaveis {
 
     public static void main(String[] args) {
         /**

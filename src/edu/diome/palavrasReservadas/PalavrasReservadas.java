@@ -1,6 +1,6 @@
 package edu.diome.palavrasReservadas;
 
-public class palavrasReservadas {
+public class PalavrasReservadas {
     /*
     abstract - OK
     assert - OK

@@ -1,6 +1,6 @@
 package edu.diome.operadores;
 
-public class operadores {
+public class Operadores {
 
     public static void main(String[] args) {
         /**
