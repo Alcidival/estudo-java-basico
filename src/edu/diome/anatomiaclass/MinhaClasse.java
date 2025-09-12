@@ -1,4 +1,4 @@
-package edu.diome.anatomiaClass;
+package edu.diome.anatomiaclass;
 
 public class MinhaClasse {
 

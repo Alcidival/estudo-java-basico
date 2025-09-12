@@ -1,4 +1,4 @@
-package edu.diome.javaDoc;
+package edu.diome.javadoc;
 
 public class JavaDocs {
     /**

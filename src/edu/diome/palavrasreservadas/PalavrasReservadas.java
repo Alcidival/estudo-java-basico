@@ -1,4 +1,4 @@
-package edu.diome.palavrasReservadas;
+package edu.diome.palavrasreservadas;
 
 public class PalavrasReservadas {
     /*

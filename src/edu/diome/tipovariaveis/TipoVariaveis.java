@@ -1,4 +1,4 @@
-package edu.diome.tipoVariaveis;
+package edu.diome.tipovariaveis;
 
 public class TipoVariaveis {
 

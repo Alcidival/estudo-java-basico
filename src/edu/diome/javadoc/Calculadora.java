@@ -1,4 +1,4 @@
-package edu.diome.javaDoc;
+package edu.diome.javadoc;
 
 /**
  * <h1>Calculadora</h1>
